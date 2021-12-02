@@ -1,0 +1,4 @@
+image: gitpod/workspace-mysql
+
+tasks:
+  - init: composer install; php ./assets/scripts/init_database.php
